@@ -2,6 +2,8 @@
 
 This is a demonstration of the idea of creating a DSL in Clojure for controlling a robot tank. Code is emitted for either the Lego MindStorm NXT or for an Arduino powered tank.
 
+I wrote up a blog post describing the project here: http://david-mcneil.com/post/17044248397/clojure-robot-dsl
+
 ## License
 
 Copyright (C) 2012 David McNeil
