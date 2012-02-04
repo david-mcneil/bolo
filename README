@@ -1,0 +1,9 @@
+# bolo
+
+This is a demonstration of the idea of creating a DSL in Clojure for controlling a robot tank. Code is emitted for either the Lego MindStorm NXT or for an Arduino powered tank.
+
+## License
+
+Copyright (C) 2012 David McNeil
+
+Distributed under the Eclipse Public License.

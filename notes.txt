@@ -1,0 +1,84 @@
+Building a Clojure DSL for Lego MindStorm / Arduino Robots
+February 2012
+
+Lego
+  -parts
+    -technic
+    -motors (are sensors)
+    -sensors
+       -touch
+       -ultrasonic
+       -light
+    -brick
+      -LCD
+      -buttons
+      -sound
+
+  -lessons
+    -essential parts of a computer: processor, memory, input, output
+
+  -projects
+    -vehicles
+    -machines
+      -gears, levers, motion translation
+    -hand-held games +sensors, motors
+
+  -demo
+
+  -code
+     -graphical environment
+     -many choices
+     -Lua
+     -Not Exactly C (NXC)
+
+  -benefits
+     -nicely packaged products
+     -sophisticated features packed in
+     -provide low-level access to peripherals
+
+Arduino
+  -parts
+    -arduino board
+      -processor, memory
+      -digital I/O pins
+      -analog input pins
+      -power/ground for external circuit
+    -tank
+      -model kit
+      -motors, selectable gearbox
+    -motor shield
+      -power motors
+      -set direction
+      -brakes
+      -measure current draw
+      
+  -demo
+
+  -benefits
+      -all open, go as deep as you want
+
+DSL
+  -ops
+  -sandbox
+  -teaching benefits
+     -tinkerable language (like the hardware)
+        -tap into the various Clojure/Lisp parts
+        -define the operators
+        -define the language constructs (e.g. flow control)
+        -define/implement variables, scoping, etc.
+     -teach that "code is data", it is just text/forms
+     -abstractions - emit code in many languages
+     -Clojure/Lisp exposure
+  -benefits
+     -bang for your buck
+     -nestle tightly down into Clojure/Lisp parts
+        -e.g. use Clojure evaluator to walk the tree, get macros "for
+        free", no need to write parser, etc.
+     -constructor functions/macros
+     -type to dispatch on
+     -associative field access
+
+
+Thanks!
+
+@david_mcneil
